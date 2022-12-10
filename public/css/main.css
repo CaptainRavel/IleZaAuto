@@ -1,0 +1,484 @@
+HTML CSSResult Skip Results Iframe
+EDIT ON
+
+
+
+.navbar{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #8e54ff;
+}
+
+.header{
+  width: 100%;
+  height: 60px;
+}
+
+.menu{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 100px;
+}
+
+.menu li{
+  display: block;
+  height: 100%;
+  font-size: 20px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #8e54e9;
+  transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  text-align: center;
+  margin-right: 10px;
+}
+
+
+/* Style 1 */
+/* Before Hover: Width of before element is set to 100% and height to 0 and Width of before element is*/
+/* set to 0% and height to 100%  */
+/* On Hover:  Top and bottom borders' of after element and left and right borders of before element*/
+/* is animated here by increasing the height of before element from 0 to 80% and width of after */
+/* element from 0 to 120% */
+
+.menu li:after,
+.menu li:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+}
+
+.menu li:after {
+  width: 0%;
+  height: 80%;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.menu li:before {
+  width: 120%;
+  height: 0%;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: all 0.5s ease;
+}
+
+.menu li:hover::before {
+  height: 80%;
+}
+
+.menu li:hover::after {
+  width: 120%;
+}
+Resources1× 0.5× 0.25×Rerun
+
+
+/*!
+ * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Licensed under MIT
+ */
+ .la-cog,
+ .la-cog > div {
+     position: relative;
+     -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+ }
+ .la-cog {
+     display: block;
+     font-size: 0;
+     color: #fff;
+ }
+ .la-cog.la-dark {
+     color: #333;
+ }
+ .la-cog > div {
+     display: inline-block;
+     float: none;
+     background-color: currentColor;
+     border: 0 solid currentColor;
+ }
+ .la-cog {
+     width: 31px;
+     height: 31px;
+ }
+ .la-cog > div {
+     width: 100%;
+     height: 100%;
+     background-color: transparent;
+     border-style: dashed;
+     border-width: 2px;
+     border-radius: 100%;
+     -webkit-animation: cog-rotate 4s linear infinite;
+        -moz-animation: cog-rotate 4s linear infinite;
+          -o-animation: cog-rotate 4s linear infinite;
+             animation: cog-rotate 4s linear infinite;
+ }
+ .la-cog > div:after {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     content: "";
+     border: 2px solid currentColor;
+     border-radius: 100%;
+ }
+ .la-cog.la-sm {
+     width: 15px;
+     height: 15px;
+ }
+ .la-cog.la-sm > div {
+     border-width: 1px;
+ }
+ .la-cog.la-sm > div:after {
+     border-width: 1px;
+ }
+ .la-cog.la-2x {
+     width: 61px;
+     height: 61px;
+ }
+ .la-cog.la-2x > div {
+     border-width: 4px;
+ }
+ .la-cog.la-2x > div:after {
+     border-width: 4px;
+ }
+ .la-cog.la-3x {
+     width: 91px;
+     height: 91px;
+ }
+ .la-cog.la-3x > div {
+     border-width: 6px;
+ }
+ .la-cog.la-3x > div:after {
+     border-width: 6px;
+ }
+ /*
+  * Animation
+  */
+ @-webkit-keyframes cog-rotate {
+     0% {
+         -webkit-transform: rotate(0deg);
+                 transform: rotate(0deg);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+                 transform: rotate(360deg);
+     }
+ }
+ @-moz-keyframes cog-rotate {
+     0% {
+         -moz-transform: rotate(0deg);
+              transform: rotate(0deg);
+     }
+     100% {
+         -moz-transform: rotate(360deg);
+              transform: rotate(360deg);
+     }
+ }
+ @-o-keyframes cog-rotate {
+     0% {
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+     }
+     100% {
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+     }
+ }
+ @keyframes cog-rotate {
+     0% {
+         -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+              -o-transform: rotate(0deg);
+                 transform: rotate(0deg);
+     }
+     100% {
+         -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+              -o-transform: rotate(360deg);
+                 transform: rotate(360deg);
+     }
+ }
+
+.select-css {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%; 
+    box-sizing: border-box;
+    margin: 0;
+    border: 2px solid #ffc107;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #c9c5c5;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 50%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.select-css::-ms-expand {
+    display: none;
+}
+.select-css:hover {
+    border-color: #ffc107;
+}
+.select-css:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 1px 2px #ffc107;
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+.select-css option {
+    font-weight:500;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    max-height: 15em;
+    min-height: 10em;
+    object-fit: cover;
+}
+
+.karta_edycji {
+  display: block;
+  width: 80%;
+  padding: 0.375rem 0.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ffc107;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 0.5rem !important;
+}
+.karta_edycji {
+    transition: none;
+  }
+}
+.karta_edycji[type=file] {
+  overflow: hidden;
+}
+.karta_edycji[type=file]:not(:disabled):not([readonly]) {
+  cursor: pointer;
+}
+.karta_edycji:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ffc107;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.karta_edycji::-webkit-date-and-time-value {
+  height: 1.5em;
+}
+.karta_edycji::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.karta_edycji::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.karta_edycji:disabled {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+.karta_edycji::-webkit-file-upload-button {
+  padding: 0.375rem 0.75rem;
+  margin: -0.375rem -0.75rem;
+  -webkit-margin-end: 0.75rem;
+  margin-inline-end: 0.75rem;
+  color: #212529;
+  background-color: #e9ecef;
+  pointer-events: none;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-inline-end-width: 1px;
+  border-radius: 0;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.karta_edycji::file-selector-button {
+  padding: 0.375rem 0.75rem;
+  margin: -0.375rem -0.75rem;
+  -webkit-margin-end: 0.75rem;
+  margin-inline-end: 0.75rem;
+  color: #212529;
+  background-color: #e9ecef;
+  pointer-events: none;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-inline-end-width: 1px;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .karta_edycji::-webkit-file-upload-button {
+    -webkit-transition: none;
+    transition: none;
+  }
+  .karta_edycji::file-selector-button {
+    transition: none;
+  }
+}
+.karta_edycji:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+  background-color: #dde0e3;
+}
+.karta_edycji:hover:not(:disabled):not([readonly])::file-selector-button {
+  background-color: #dde0e3;
+}
+
+.karta_edycji-plaintext {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  border: solid transparent;
+  border-width: 1px 0;
+}
+.karta_edycji-plaintext:focus {
+  outline: 0;
+}
+.karta_edycji-plaintext.karta_edycji-sm, .karta_edycji-plaintext.karta_edycji-lg {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.karta_edycji-sm {
+  min-height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+}
+.karta_edycji-sm::-webkit-file-upload-button {
+  padding: 0.25rem 0.5rem;
+  margin: -0.25rem -0.5rem;
+  -webkit-margin-end: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+.karta_edycji-sm::file-selector-button {
+  padding: 0.25rem 0.5rem;
+  margin: -0.25rem -0.5rem;
+  -webkit-margin-end: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+
+.karta_edycji-lg {
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+.karta_edycji-lg::-webkit-file-upload-button {
+  padding: 0.5rem 1rem;
+  margin: -0.5rem -1rem;
+  -webkit-margin-end: 1rem;
+  margin-inline-end: 1rem;
+}
+.karta_edycji-lg::file-selector-button {
+  padding: 0.5rem 1rem;
+  margin: -0.5rem -1rem;
+  -webkit-margin-end: 1rem;
+  margin-inline-end: 1rem;
+}
+ul.social {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 100%;
+    left: 50%;
+}
+
+li.x1 {
+    display: inline;
+    color: #fff;
+    padding: 0 2em;
+}
+
+a.x1 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #ffc107;
+   border-radius: 25px;
+ 
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #fada7a;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #fada7a;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 2px solid #ffc107;
+   border-radius: 25px;
+  border-top: none;
+}
+
+

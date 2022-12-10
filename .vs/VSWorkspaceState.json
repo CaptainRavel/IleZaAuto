@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\resources",
+    "\\resources\\css",
+    "\\resources\\js",
+    "\\resources\\sass",
+    "\\resources\\views",
+    "\\resources\\views\\auth",
+    "\\resources\\views\\email",
+    "\\resources\\views\\layouts"
+  ],
+  "SelectedNode": "\\resources\\views\\admin_panel.blade.php",
+  "PreviewInSolutionExplorer": false
+}
